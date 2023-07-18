@@ -2,7 +2,72 @@
   margin: 0;
   padding: 0;
 }
+.Cap img{
+  width: 155px;
+}
+.read-more-btn{
+  color: rgb(7, 167, 7);
+}
+.caption{
+  display: block;
+}
+.CB i{
+  font-size: 45px;
+  font-size: 43px;
+}
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Header {
+  display: flex;
+  align-items: center;
+  /* margin-left: 110px; */
+  align-content: center;
+  margin-right: 20px;
+  /* justify-content: center; */
+  gap: 9%;
+  margin-left: 118px;
+}
+.CB p{
+  margin-left: 44px;
+}
+.number{
+  margin-left: 10px;
+}
+.three img{
+  display: flex;
+  width: 105px;
+}
+.right{
+  margin-left: 20px;
+}
+.hei{
+  height: 140px;
+}
+.book p{
+  margin-left: 0px;
+}
+.book h2{
+  margin-bottom: 0px;
+}
 
+.circle-singleline {
+  margin: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;    
+    background: #808080;
+    color: #fff;
+}
 .msg{
   display: flex;
   flex-direction: row;
@@ -12,6 +77,18 @@
 .imgflex{
   display: flex;
   flex-direction: row;
+  position: relative;
+  text-align: center;
+  color: white;
+
+  
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 #img1{
   object-fit: cover;
@@ -35,10 +112,11 @@
 .sb{
   margin-left: 30px;
 }
-.bt{
-
-    border-radius: 35px;
-
+.bt {
+  border-radius: 35px;
+  margin-top: 25px;
+  height: 50px;
+  width: 140px;
 }
 .main{
     height: 80px;
@@ -58,6 +136,9 @@
 .stars{
     text-align: center;
     margin-top: 30px;
+}
+.para{
+  width: 930px;
 }
 
 .What{
@@ -127,7 +208,7 @@
   }
 
   .img{
-    object-fit: cover;
+  object-fit: cover;
   background: linear-gradient(rgb(0 0 0 / 63%), rgb(0 0 0)), url(img2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -145,27 +226,27 @@
 .fav img{
   object-fit: cover;
   display: flex;
-  width: 31%;
+  width: 38%;
   height: 100px;
   border-radius: 60%;
   border: 3px solid white;
   opacity: 1;
   justify-content: center;
   align-items: center;
- margin-left: 110px
+ margin-left: 78px
   
 }
 .image{
   object-fit: cover;
   display: flex;
-  width: 50%;
+  width: 100%;
   justify-content: end;
   float: left;
 
 }
 .image img{
   object-fit: cover;
-  width: 70%;
+  width: 80%;
   height: 285px;
 }
 .point{
@@ -183,8 +264,8 @@
   /* display: inline-block; */
   padding: 0 25px;
   height: 50px;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 20px;
   margin-left: 30px;
 
 }
@@ -202,10 +283,50 @@
   height: 70px;
 }
 
-@media (max-width: 393px) {
+@media screen and (min-width: 200px ) and (max-width: 567px) {
+
+  .Cap img{
+    width: 155px;
+  }
+  .head{
+    display: none;
+  }
+
+  .hei {
+    height: 260px;
+}
+.CB{
+  margin-top: 68px;
+  margin-bottom: 100px;
+}
+.CB i{
+  font-size: 35px;
+}
+.CB p {
+  margin-left: 44px;
+  width: 215px;
+}
+.book h2{
+    padding-left: 0px;
+    width: 318px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+  
+}
+  .Header {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-right: 20px;
+    gap: 9%;
+    margin-left: 0px;
+  }
+
   .bt{
 
     border-radius: 35px;
+    display: none;
 
 }
 .main{
@@ -255,45 +376,55 @@
   
   display: flex;
   text-align: center;
-  width: 242px;
+  width: 222px;
 
 }
 
 .fav h4{
-  margin-left: 50px;
+  margin-left: 35px;
 }
 
 .fav img {
   display: flex;
-  width: 189%;
+  width: 240%;
   height: 100px;
   border-radius: 60%;
   opacity: 1;
   justify-content: center;
   align-items: center;
-  margin-left: 70px;
+  margin-left: 50px;
 }
 
 .image {
   display: flex;
-  width: 105%;
-  justify-content: center;
+  width: 100%;
+
+}
+
+.image img {
+  object-fit: cover;
+  width: 100%;
+  height: 285px;
 }
 .point {
   display: flex;
-  width: 105%;
-  justify-content: center;
+  width: 100%;
+
   margin-top: 26px;
 }
 .flex-row {
   flex-direction: column;
+}
+.Mes{
+  margin-top: 10px;
+  margin-left: -15px;
 }
 .img {
   background: linear-gradient(rgb(0 0 0 / 63%), rgb(0 0 0)), url(img2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 850px;
+  height:  868px;
 }
 .msg{
   display: flex;
@@ -304,8 +435,10 @@
   width: 20px;
 }
 .para {
-  text-align: center;
+  width: 377px;
+
 }
+
 .imgflex{
   display: flex;
   flex-direction: column;
@@ -329,17 +462,37 @@
 .main2{
   height: 130px;
 }
+.centered{
+  display: none;
+}
 
 }
 
-@media (max-width: 685px) {
+@media screen and (min-width: 568px ) and (max-width: 992px) {
+
+  .Header{
+    gap: 11%;
+    margin-left: 0px;
+  }
+
+  .book h2{
+    /* margin-right: 180px; */
+    font-size: 23px;
+  }
+
+  .book p{
+    /* margin-right: 180px; */
+    font-size: 13px;
+  }
+
   .bt{
 
     border-radius: 35px;
+    display: none;
 
 }
 .main{
-    height: 80px;
+    height: 130px;
 }
 .l{
     width: 95%;
@@ -354,13 +507,17 @@
 
 .What{
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: center;
   gap: 30px;
   margin-top: 30px;
   margin-bottom: 15px;
 
 
+}
+.c p{
+  width: 132px;
+  flex-wrap: wrap;
 }
 
 .c {
@@ -374,7 +531,7 @@
 
 .what{
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: center;
   gap: 70px;
   margin-bottom: 15px;
@@ -385,222 +542,117 @@
   
   display: flex;
   text-align: center;
-  width: 242px;
-
+  width: 200px;
 }
 
 .fav h4{
-  margin-left: 50px;
+ 
+  margin-left: 28px;
+
 }
 
 .fav img {
   display: flex;
-  width: 189%;
-  height: 100px;
-  border-radius: 60%;
-  opacity: 1;
-  justify-content: center;
-  align-items: center;
-  margin-left: 70px;
+    width: 75%;
+    height: 100px;
+    border-radius: 60%;
+    opacity: 1;
+    align-items: center;
+    margin-left: 40px;
+    justify-content: center;
+    flex-direction: row;
+    /* align-content: center; */
+
 }
 
 .image {
   display: flex;
-  width: 105%;
-  justify-content: center;
-}
-.point {
-  display: flex;
-  width: 105%;
-  justify-content: center;
-  margin-top: 26px;
-}
-.flex-row {
-  flex-direction: column;
-}
-.img {
-  background: linear-gradient(rgb(0 0 0 / 63%), rgb(0 0 0)), url(img2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 850px;
-}
-.msg{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 675px;
-  margin-left: 34px;
-  width: 20px;
-}
-.para {
-  text-align: center;
-}
-.imgflex{
-  display: flex;
-  flex-direction: column;
-}
-
-#img1{
   width: 100%;
-  height: 260px;
- }
- #img2{
-   width: 100%;
-   height: 260px;
- }
- #img3{
-   width: 100%;
-   height: 260px;
- }
- .sb{
-  margin-left: 0px;
-}
 
-}
-
-@media (max-width: 820px) {
-  .bt{
-
-    border-radius: 35px;
-
-}
-.main{
-    height: 80px;
-}
-.l{
-    width: 95%;
-    float: left;
-    justify-content: end;
-    padding-top: 20px;
-}
-.r{
-    width: 50%;
-    padding-top: 20px;
-}
-
-.What{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 30px;
-  margin-top: 30px;
-  margin-bottom: 15px;
-
-
-}
-
-.c {
-  background-color: white;
-  display: flex;
-  width: 96%;
-  height: 200px;
-  border: none;
-  background: none;
-}
-
-.what{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 70px;
-  margin-bottom: 15px;
-  padding: 4rem;
-}
-
-.c1 p{
-  
-  display: flex;
-  text-align: center;
-  width: 242px;
-
-}
-
-.fav h4{
-  margin-left: 50px;
-}
-
-.fav img {
-  display: flex;
-  width: 189%;
-  height: 100px;
-  border-radius: 60%;
-  opacity: 1;
-  justify-content: center;
-  align-items: center;
-  margin-left: 70px;
-}
-
-.image {
-  display: flex;
-  width: 105%;
-  justify-content: center;
-}
-.point {
-  display: flex;
-  width: 114%;
-  justify-content: center;
-  margin-top: 26px;
-}
-.flex-row {
-  flex-direction: column;
-}
-.img {
-  background: linear-gradient(rgb(0 0 0 / 63%), rgb(0 0 0)), url(img2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 850px;
-}
-.msg{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 675px;
-  margin-left: 34px;
-  width: 20px;
-}
-.para {
-  text-align: center;
-}
-.imgflex{
-  display: flex;
-  flex-direction: column;
-}
-
-#img1{
-  width: 100%;
-  height: 260px;
- }
- #img2{
-   width: 100%;
-   height: 260px;
- }
- #img3{
-   width: 100%;
-   height: 260px;
- }
- .sb{
-  margin-left: 0px;
 }
 
 .image img {
-  width: 83%;
+  object-fit: cover;
+  width: 100%;
   height: 285px;
-  margin-right: 10px;
 }
-.r {
-  width: 96%;
-  padding-top: 20px;
+.point {
+  display: flex;
+  width: 50%;
+  margin-left: 0px;
+  margin-top: 43px;
+}
+.flex-row {
+  flex-direction: column;
+}
+.Mes{
+  margin-top: 10px;
+  /* margin-left: 66px; */
+}
+.img {
+  background: linear-gradient(rgb(0 0 0 / 63%), rgb(0 0 0)), url(img2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 420px;
+}
+.msg{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  height: 301px;
+  /* margin-left: 34px; */
+  width: 720px;
+}
+.para {
+  width: 700px;
+
 }
 
-.main2 {
-  height: 130px;
-}
-.main {
-  height: 130px;
+.CB p{
+  margin-left: 44px;
+  margin-top: 0px;
 }
 
+.chip {
+  /* display: inline-block; */
+  padding: 0px 10px;
+  height: 36px;
+  font-size: 18px;
+  line-height: 20px;
+  margin-left: 0px;
 }
+.imgflex{
+  display: flex;
+  /* flex-direction: column; */
+}
+
+#img1{
+  width: 35%;
+  height: 260px;
+ }
+ #img2{
+   width: 35%;
+   height: 260px;
+ }
+ #img3{
+   width: 30%;
+   height: 260px;
+ }
+ .sb{
+  margin-left: 0px;
+}
+.main2{
+  height: 130px;
+}
+.centered{
+  display: none;
+}
+
+
+}
+
+
+ 
 
 
