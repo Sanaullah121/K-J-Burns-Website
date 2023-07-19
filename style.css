@@ -1,7 +1,40 @@
 *{
   margin: 0;
   padding: 0;
+  /* overflow: hidden; */
 }
+
+/* .carousel-caption h2{
+  margin-top: 25px;
+  margin-bottom: 220px;
+  font-size: 45px;
+} */
+
+
+.inner{
+  height: 200px;
+  width: 200px;
+  border: 5px solid white;
+  border-radius: 5000px;
+  display: block;
+}
+
+.hc1 img{
+  margin-left: 30px;
+
+}
+
+.hc1 span{
+  margin-left: 30px;
+}
+.copy{
+  display: flex;
+  flex-direction: row;
+  margin-left: 60px;
+  gap: 100px;
+}
+
+
 .Cap img{
   width: 155px;
 }
@@ -10,6 +43,27 @@
 }
 .caption{
   display: block;
+}
+.hc1 img{
+    width: 155px;
+}
+.hei{
+  height: 150px;
+}
+
+.circle {
+  width: 500px;
+  height: 500px;
+  line-height: 500px;
+  border-radius: 50%;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  background: #000
+}
+
+.hc2 img{
+  width: 125px;
 }
 .CB i{
   font-size: 45px;
@@ -36,6 +90,7 @@
 }
 .CB p{
   margin-left: 44px;
+  font-size: 14px;
 }
 .number{
   margin-left: 10px;
@@ -93,17 +148,17 @@
 #img1{
   object-fit: cover;
  width: 45%;
- height: 260px;
+ height: 288px;
 }
 #img2{
   object-fit: cover;
   width: 45%;
-  height: 260px;
+  height: 288px;
 }
 #img3{
   object-fit: cover;
   width: 45%;
-  height: 260px;
+  height: 288px;
 }
 .img-h img{
   object-fit: cover;
@@ -209,7 +264,7 @@
 
   .img{
   object-fit: cover;
-  background: linear-gradient(rgb(0 0 0 / 63%), rgb(0 0 0)), url(img2.jpg);
+  background: linear-gradient(rgba(20, 19, 19, 0.63), rgb(20, 19, 19)), url(dubai.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -222,10 +277,16 @@
     margin-bottom: 15px;
     padding: 4rem;
   }
+
+  .fav {
+    padding-top: 65px;
+    gap: 145px;
+  }
  
 .fav img{
+
   object-fit: cover;
-  display: flex;
+  /* display: flex; */
   width: 38%;
   height: 100px;
   border-radius: 60%;
@@ -233,7 +294,8 @@
   opacity: 1;
   justify-content: center;
   align-items: center;
- margin-left: 78px
+  margin-left: 85px;
+
   
 }
 .image{
@@ -247,7 +309,7 @@
 .image img{
   object-fit: cover;
   width: 80%;
-  height: 285px;
+  height: 327px;
 }
 .point{
   display: flex;
@@ -294,6 +356,14 @@
 
   .hei {
     height: 260px;
+}
+
+.copy{
+
+  flex-direction: column ;
+  margin-left: 0px;
+  gap: 25px;
+  text-align: center;
 }
 .CB{
   margin-top: 68px;
@@ -376,23 +446,20 @@
   
   display: flex;
   text-align: center;
-  width: 222px;
+  width: 365px;
 
 }
 
-.fav h4{
-  margin-left: 35px;
-}
 
 .fav img {
   display: flex;
-  width: 240%;
+  width: 32%;
   height: 100px;
   border-radius: 60%;
   opacity: 1;
   justify-content: center;
   align-items: center;
-  margin-left: 50px;
+  margin-left: 112px;
 }
 
 .image {
@@ -435,7 +502,7 @@
   width: 333px;
 }
 .para {
-  width: 349px;
+  width: 359px;
 
 }
 
@@ -473,6 +540,10 @@
   .Header{
     gap: 11%;
     margin-left: 0px;
+  }
+
+  .RW{
+    width: 750px;
   }
 
   .book h2{
@@ -515,6 +586,15 @@
 
 
 }
+
+.hc1 img{
+  margin-left: 0px;
+
+}
+
+.hc1 span{
+  margin-left: 0px;
+}
 .c p{
   width: 132px;
   flex-wrap: wrap;
@@ -545,20 +625,15 @@
   width: 200px;
 }
 
-.fav h4{
- 
-  margin-left: 28px;
-
-}
 
 .fav img {
   display: flex;
-    width: 75%;
+    width: 50%;
     height: 100px;
     border-radius: 60%;
     opacity: 1;
     align-items: center;
-    margin-left: 40px;
+    margin-left: 51px;
     justify-content: center;
     flex-direction: row;
     /* align-content: center; */
@@ -574,13 +649,12 @@
 .image img {
   object-fit: cover;
   width: 100%;
-  height: 285px;
+  height: 330px;
 }
 .point {
   display: flex;
   width: 50%;
   margin-left: 0px;
-  margin-top: 43px;
 }
 .flex-row {
   flex-direction: column;
@@ -625,6 +699,10 @@
 .imgflex{
   display: flex;
   /* flex-direction: column; */
+}
+
+.firstbt{
+    margin-left: -66px;
 }
 
 #img1{
