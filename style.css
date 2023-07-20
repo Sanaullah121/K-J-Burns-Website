@@ -4,12 +4,90 @@
   /* overflow: hidden; */
 }
 
-/* .carousel-caption h2{
-  margin-top: 25px;
-  margin-bottom: 220px;
-  font-size: 45px;
+
+
+
+.inner p{
+  margin-top: 81px;
+}
+
+.icons i{
+  font-size: 17px;
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 31px;
+  color: white;
+  border-radius: 52px;
+}
+
+.icons i:hover{
+  color: #16772b;
+  transform: translateY(-3px);
+  cursor: pointer;
+}
+
+.nav-link{
+  position: relative;
+  /* transition: all 0.2s; */
+}
+
+.nav-item a:hover {
+  color: rgb(230, 166, 47);
+  transform: translateY(-2px);
+}
+
+.info a:hover{
+  color: #16772b;
+}
+
+.firstb :hover{
+  background-color: orange;
+  color: white;
+}
+
+.secondb :hover{
+  background-color: green;
+  color: white;
+}
+
+
+/* .dropdown-menu a:hover{
+  color: rgb(117, 84, 21);
+} */
+.A:hover::after {
+  opacity: 1;
+  /* border-bottom: 2px solid orange; */
+}
+
+.A::after{
+  content: "";
+  opacity: 0;
+  transition: 0.3s;
+  height: 2px;
+  width: 100%;
+  background-color: orange;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+}
+/* .navbar-nav a{
+  content: "";
+  position: absolute;
+  background-color: orange;
+  height: 3px;
+  width: 100%;
+  left: 0;
+  bottom: -10px;
+
 } */
 
+.bticon i{
+  font-size: 20px;
+
+}
 
 .inner{
   height: 200px;
@@ -63,7 +141,8 @@
 }
 
 .hc2 img{
-  width: 125px;
+  margin-top: 5px;
+  width: 190px;
 }
 .CB i{
   font-size: 45px;
@@ -144,6 +223,13 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  display: inherit;
+  gap: 20px;
+  width: max-content;
+}
+.centered p{
+  margin-top: 84px;
+  font-size: large;
 }
 #img1{
   object-fit: cover;
@@ -729,6 +815,43 @@
 
 
 }
+
+
+@media screen and (min-width: 992px ) and (max-width: 1438px) {
+
+  .fav img {
+    object-fit: cover;
+    /* display: flex; */
+    width: 31%;
+    height: 100px;
+    border-radius: 60%;
+    border: 3px solid white;
+    opacity: 1;
+    justify-content: center;
+    align-items: center;
+    margin-left: 117px;
+}
+
+.image img {
+  object-fit: cover;
+  width: 68%;
+  height: 327px;
+}
+
+.copy {
+  display: flex;
+  flex-direction: row;
+  margin-left: 230px;
+  gap: 100px;
+}
+
+}
+
+
+
+
+
+
 
 
  
