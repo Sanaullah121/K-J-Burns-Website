@@ -4,7 +4,15 @@
   /* overflow: hidden; */
 }
 
+.carouselExampleCaptions{
+  height: 80vh;
+}
 
+.carousel-item img{
+
+  height: 100vh;
+
+}
 
 
 .inner p{
@@ -40,6 +48,9 @@
 
 .info a:hover{
   color: #16772b;
+
+
+ 
 }
 
 .firstb :hover{
@@ -227,7 +238,7 @@
   gap: 20px;
   width: max-content;
 }
-.centered p{
+.centered h5{
   margin-top: 84px;
   font-size: large;
 }
@@ -444,6 +455,20 @@
     height: 260px;
 }
 
+.carousel-item img{
+
+  height: 50vh;
+
+}
+
+
+#img1{
+  display: none;
+}
+#img3{
+  display: none;
+}
+
 .copy{
 
   flex-direction: column ;
@@ -485,6 +510,7 @@
     display: none;
 
 }
+
 .main{
     height: 130px;
 }
@@ -539,13 +565,13 @@
 
 .fav img {
   display: flex;
-  width: 32%;
+  width: 29%;
   height: 100px;
   border-radius: 60%;
   opacity: 1;
   justify-content: center;
   align-items: center;
-  margin-left: 112px;
+  margin-left: 128px;
 }
 
 .image {
@@ -616,9 +642,11 @@
   height: 130px;
 }
 .centered{
+  /* display: none; */
+}
+.centered h5{
   display: none;
 }
-
 }
 
 @media screen and (min-width: 568px ) and (max-width: 992px) {
@@ -626,6 +654,12 @@
   .Header{
     gap: 11%;
     margin-left: 0px;
+  }
+
+  .carousel-item img{
+
+    height: 50vh;
+  
   }
 
   .RW{
@@ -821,7 +855,6 @@
 
   .fav img {
     object-fit: cover;
-    /* display: flex; */
     width: 31%;
     height: 100px;
     border-radius: 60%;
