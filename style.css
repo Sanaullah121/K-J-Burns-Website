@@ -4,14 +4,23 @@
   /* overflow: hidden; */
 }
 
+
 .carouselExampleCaptions{
   height: 80vh;
 }
 
+.HB {
+  margin-left: 25px;
+}
+
 .carousel-item img{
+  filter: brightness(50%);
+   height: 80vh;
 
-  height: 100vh;
+}
 
+.R{
+  border-radius: 20px;
 }
 
 
@@ -31,8 +40,8 @@
 }
 
 .icons i:hover{
-  color: #16772b;
-  transform: translateY(-3px);
+  background-color: #16772b;
+  color: orange;
   cursor: pointer;
 }
 
@@ -43,7 +52,6 @@
 
 .nav-item a:hover {
   color: rgb(230, 166, 47);
-  transform: translateY(-2px);
 }
 
 .info a:hover{
@@ -55,12 +63,12 @@
 
 .firstb :hover{
   background-color: orange;
-  color: white;
+  color: gold;
 }
 
 .secondb :hover{
   background-color: green;
-  color: white;
+  color: gold;
 }
 
 
@@ -239,20 +247,23 @@
   width: max-content;
 }
 .centered h5{
-  margin-top: 84px;
+  margin-top: 90px;
   font-size: large;
 }
 #img1{
+  filter: brightness(50%);
   object-fit: cover;
  width: 45%;
  height: 288px;
 }
 #img2{
+  filter: brightness(50%);
   object-fit: cover;
   width: 45%;
   height: 288px;
 }
 #img3{
+  filter: brightness(50%);
   object-fit: cover;
   width: 45%;
   height: 288px;
@@ -374,8 +385,38 @@
     margin-bottom: 15px;
     padding: 4rem;
   }
+/*  */
 
-  .fav {
+.Display{
+  padding-top: 80px;
+}
+.Display img{
+  width: 100px;
+  height: 100px;
+  opacity: 1;
+  object-fit: cover;
+  border: 4px solid white;
+}
+
+.Elec{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.Elec h5{
+  margin-top: 10px;
+}
+.Elec p{
+  text-align: center;
+}
+
+/*  */
+
+
+
+
+  /* .fav {
     padding-top: 65px;
     gap: 145px;
   }
@@ -383,7 +424,7 @@
 .fav img{
 
   object-fit: cover;
-  /* display: flex; */
+  display: flex;
   width: 38%;
   height: 100px;
   border-radius: 60%;
@@ -394,7 +435,7 @@
   margin-left: 85px;
 
   
-}
+} */
 .image{
   object-fit: cover;
   display: flex;
@@ -405,7 +446,7 @@
 }
 .image img{
   object-fit: cover;
-  width: 80%;
+  width: 435px;
   height: 327px;
 }
 .point{
@@ -457,9 +498,18 @@
 
 .carousel-item img{
 
-  height: 50vh;
+  height: 60vh;
 
 }
+
+.Herryb{
+  font-size: 10px;
+}
+
+.HB{
+  margin-left: -6px;
+}
+
 
 
 #img1{
@@ -850,7 +900,7 @@
 }
 
 
-@media screen and (min-width: 992px ) and (max-width: 1438px) {
+/* @media screen and (min-width: 992px ) and (max-width: 1438px) {
 
   .fav img {
     object-fit: cover;
@@ -877,7 +927,7 @@
   gap: 100px;
 }
 
-}
+} */
 
 
 
