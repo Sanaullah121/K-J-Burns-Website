@@ -4,6 +4,23 @@
   /* overflow: hidden; */
 }
 
+.RW{
+  display: flex;
+  align-items: center;
+}
+.message{
+  width: 345px;
+}
+
+.horizontal{
+  display: none;
+}
+
+.vertical{
+  height: 200px;
+  width: 50px;
+}
+
 
 .carouselExampleCaptions{
   height: 80vh;
@@ -16,6 +33,7 @@
 .carousel-item img{
   filter: brightness(50%);
    height: 80vh;
+   object-fit: cover;
 
 }
 
@@ -62,13 +80,13 @@
 }
 
 .firstb :hover{
-  background-color: orange;
-  color: gold;
+  background-color: goldenrod;
+  color: white;
 }
 
 .secondb :hover{
   background-color: green;
-  color: gold;
+  color: white;
 }
 
 
@@ -300,9 +318,7 @@
     text-align: center;
     margin-top: 30px;
 }
-.para{
-  width: 930px;
-}
+
 
 .What{
     display: flex;
@@ -411,6 +427,10 @@
   text-align: center;
 }
 
+.card-text{
+  margin-left: 20px;
+}
+
 /*  */
 
 
@@ -446,7 +466,7 @@
 }
 .image img{
   object-fit: cover;
-  width: 435px;
+  width: 635px;
   height: 327px;
 }
 .point{
@@ -466,7 +486,7 @@
   height: 50px;
   font-size: 18px;
   line-height: 20px;
-  margin-left: 30px;
+  margin-left: 10px;
 
 }
 
@@ -488,14 +508,47 @@
   .Cap img{
     width: 155px;
   }
-  .head{
-    display: none;
-  }
+.icons{
+  display: none;
+}
 
+.Call{
+  display: none;
+}
+
+.hc2{
+  display: none;
+}
+
+.hc1 img {
+  width: 230px;
+  margin-left: 48px;
+}
+
+.hc1 span{
+  margin-left: 80px;
+}
   .hei {
     height: 260px;
 }
 
+.Gap{
+  gap: 25px;
+}
+
+
+.vr{
+  display: none;
+}
+.horizontal{
+  display: inline;
+}
+
+.vertical{
+  display: none;
+  height: 0px;
+  width: 0px;
+}
 .carousel-item img{
 
   height: 60vh;
@@ -696,6 +749,18 @@
   display: none;
 }
 
+/* .inner {
+  height: 167px;
+  width: 177px;
+  border: 5px solid white;
+  border-radius: 5000px;
+  display: block;
+}
+
+.inner p {
+  margin-top: 64px;
+} */
+
 }
 
 @media screen and (min-width: 568px ) and (max-width: 992px) {
@@ -711,10 +776,9 @@
   
   }
 
-  .RW{
-    width: 750px;
+  .message{
+    width: 228px;
   }
-
   .book h2{
     /* margin-right: 180px; */
     font-size: 23px;
@@ -749,7 +813,7 @@
   display: flex;
   /* flex-direction: column; */
   justify-content: center;
-  gap: 30px;
+  gap: 18px;
   margin-top: 30px;
   margin-bottom: 15px;
 
@@ -863,7 +927,7 @@
   height: 36px;
   font-size: 18px;
   line-height: 20px;
-  margin-left: 0px;
+  margin-left: 6px;
 }
 .imgflex{
   display: flex;
@@ -892,8 +956,10 @@
 .main2{
   height: 130px;
 }
-.centered{
-  display: none;
+
+.hc2 img {
+  margin-top: 5px;
+  width: 159px;
 }
 
 
