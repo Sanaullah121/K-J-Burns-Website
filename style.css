@@ -8,12 +8,27 @@
   display: flex;
   align-items: center;
 }
-.message{
+/* .message{
   width: 345px;
+} */
+
+.info li{
+    color: rgb(177, 166, 166);
+
+}
+
+.social li{
+  color: rgb(177, 166, 166);
 }
 
 .horizontal{
   display: none;
+}
+
+.Foot{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .vertical{
@@ -72,12 +87,16 @@
   color: rgb(230, 166, 47);
 }
 
-.info a:hover{
+.info li:hover{
   color: #16772b;
-
-
- 
+  cursor: pointer;
 }
+
+.social li:hover{
+  color: #16772b;
+  cursor: pointer;
+}
+
 
 .firstb :hover{
   background-color: goldenrod;
@@ -294,6 +313,7 @@
   margin-left: 30px;
 }
 .bt {
+  color: gold;
   border-radius: 35px;
   margin-top: 25px;
   height: 50px;
@@ -425,6 +445,7 @@
 }
 .Elec p{
   text-align: center;
+  width: 364px;
 }
 
 .card-text{
@@ -513,29 +534,49 @@
 }
 
 .Call{
-  display: none;
+  width: auto;
+}
+.hc1 img {
+  margin-left: 0px;
+}
+
+.hc1 span {
+  margin-left: 0px;
 }
 
 .hc2{
   display: none;
 }
 
-.hc1 img {
-  width: 230px;
-  margin-left: 48px;
+.RW{
+display: flex;
+flex-direction: row;
+}
+
+.hc1{
+  width: 220px;
 }
 
 .hc1 span{
-  margin-left: 80px;
+  /* margin-left: 80px; */
 }
   .hei {
-    height: 260px;
+    height: 303px;
 }
 
 .Gap{
   gap: 25px;
 }
 
+.Foot{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Design p{
+  text-align: center;
+}
 
 .vr{
   display: none;
@@ -610,8 +651,24 @@
   .bt{
 
     border-radius: 35px;
-    display: none;
+}
 
+
+.firstb{
+  justify-content: center;
+  /* width: 405px; */
+  /* height: 0px; */
+  margin-top: inherit;
+  margin-top: -10px;
+
+}
+
+.secondb{
+  justify-content: center;
+  /* width: 405px; */
+  /* height: 0px; */
+  margin-top: inherit;
+  margin-top: -10px;
 }
 
 .main{
@@ -632,7 +689,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 30px;
+  gap: 0px;
   margin-top: 30px;
   margin-bottom: 15px;
 
@@ -646,6 +703,11 @@
   height: 200px;
   border: none;
   background: none;
+}
+
+.Display {
+  padding-top: 80px;
+  gap: 25px;
 }
 
 .what{
@@ -716,10 +778,6 @@
   margin-left: 34px;
   width: 333px;
 }
-.para {
-  width: 359px;
-
-}
 
 .imgflex{
   display: flex;
@@ -745,21 +803,29 @@
   height: 130px;
 }
 
-.centered h5{
-  display: none;
+.centered {
+
+  display: block;
+
 }
 
-/* .inner {
-  height: 167px;
-  width: 177px;
+.centered h5{
+  margin-top: 0px;
+  font-size: 20px;
+}
+
+.inner {
+  height: 140px;
+  width: 140px;
   border: 5px solid white;
   border-radius: 5000px;
   display: block;
+  margin-left: 77px;
 }
 
 .inner p {
-  margin-top: 64px;
-} */
+  margin-top: 40px;
+}
 
 }
 
@@ -776,6 +842,10 @@
   
   }
 
+  .Elec p {
+    text-align: center;
+    width: 190px;
+}
   .message{
     width: 228px;
   }
@@ -792,7 +862,7 @@
   .bt{
 
     border-radius: 35px;
-    display: none;
+
 
 }
 .main{
