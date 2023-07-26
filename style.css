@@ -12,9 +12,21 @@
   width: 345px;
 } */
 
+.carousel-caption{
+  margin-bottom: 210px;
+} 
+
+.Star{
+  width: 70px;
+}
+
 .info li{
     color: rgb(177, 166, 166);
 
+}
+
+.Call{
+  margin-top: 20px;
 }
 
 .social li{
@@ -73,9 +85,12 @@
 }
 
 .icons i:hover{
-  background-color: #16772b;
-  color: orange;
+  background-color: rgb(33, 89, 68);
+  color: rgb(251, 148, 67);
   cursor: pointer;
+  transform: translateY(-2px);
+  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: 0 0 0px 4px rgb(0, 78, 45);
 }
 
 .nav-link{
@@ -84,22 +99,22 @@
 }
 
 .nav-item a:hover {
-  color: rgb(230, 166, 47);
+  color: rgb(251, 148, 67);
 }
 
 .info li:hover{
-  color: #16772b;
+  color: rgb(251, 148, 67);
   cursor: pointer;
 }
 
 .social li:hover{
-  color: #16772b;
+  color: rgb(251, 148, 67);
   cursor: pointer;
 }
 
 
 .firstb :hover{
-  background-color: goldenrod;
+  background-color: rgb(237, 114, 21);
   color: white;
 }
 
@@ -312,8 +327,16 @@
 .sb{
   margin-left: 30px;
 }
-.bt {
-  color: gold;
+
+.b1{
+  background-color:rgb(243, 131, 35);;
+}
+
+.b2{
+  background-color: rgb(0, 78, 45);
+}
+.bt{
+  color: white;
   border-radius: 35px;
   margin-top: 25px;
   height: 50px;
@@ -401,10 +424,11 @@
     padding-right: 10px; */
   
   }
-  .container1 i{
-   display: flex;
-   justify-content: center;
+
+  .container1{
+    text-align: center;
   }
+
 
   .img{
   object-fit: cover;
@@ -536,6 +560,10 @@
 .Call{
   width: auto;
 }
+
+.Call{
+  margin-top: 0px;
+}
 .hc1 img {
   margin-left: 0px;
 }
@@ -543,6 +571,15 @@
 .hc1 span {
   margin-left: 0px;
 }
+
+.carousel-caption{
+  margin-bottom: 199px;
+} 
+
+.carousel-caption h2{
+  font-size: 17px;
+} 
+
 
 .hc2{
   display: none;
@@ -555,10 +592,6 @@ flex-direction: row;
 
 .hc1{
   width: 220px;
-}
-
-.hc1 span{
-  /* margin-left: 80px; */
 }
   .hei {
     height: 303px;
